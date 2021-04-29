@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>New pill</title>
+
+    
+      <!-- Font awesome link -->
+<script src="https://kit.fontawesome.com/98e9736744.js" crossorigin="anonymous"></script>
+<!-- Font awesome link -->
+ 
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="css/demo.css" >
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <link rel="stylesheet" href="css/page-4.css" />
+  <link rel="stylesheet" href="css/page-5.css" />
+  <link rel="stylesheet" href="css/page-6.css" />
+
+
+
+
+
+
+
+   <!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+<!-- Scrollbar Custom CSS -->
+
+
+  
+<!-- Bootstrap CSS CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Bootstrap CSS CDN -->
+
+
+<!-- CAROUSEL CDN LINKS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+ <!-- END CAROUSEL CDN LINKS -->
+
+
+
+</head>
+<body>
+  <div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar" class="active">
+      <h3>  <a href="" class="logo"> <img src="Arc-Open-Space-App-logo.png" alt="" width="170"></a></h3>
+     <!-- <h3><a href="#" class="logo"><img src="Arc-Open-Space-App-logo.png" alt="" width="170"></a> </h3>  -->
+    
+     <button style="margin-top: 35px;" type="button" id="sidebarCollapse" class="btn btn-primary">
+      <i class="fa fa-bars"></i>
+      <span class="sr-only">Toggle Menu</span>
+    </button>
+      <ul class="list-unstyled components mb-5">
+       
+        <li>
+          <a class="nav-link" href="#" ><span><i class="fa fa-search"></i></span>Explore</a>
+          
+      </li>
+
+       
+        <li  class="active">
+          <a nav-link href="#"><span><i class="fa fa-briefcase"></i></span>Job Listings</a> 
+      </li>
+
+        <li>
+          <a nav-link href="#"><span><i class="fa fa-comment" aria-hidden="true"></i></span>Chats</a>
+      </li>
+
+        <li>
+          <a nav-link href="#"><span><i class="fa fa-eur" aria-hidden="true"></i></span>Finance</a>
+      </li>
+
+        <li>
+          <a nav-link href="#"><span><i class="fa fa-heart-o" aria-hidden="true"></i></span>Saved</a>
+      </li>
+
+      <li>
+          <a nav-link href="#"><span><i class="fa fa-user"></i></span>Profile</a>
+      </li>
+      </ul>
+      <!-- <div class="footer">
+        <p>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved |
+          <i class="icon-heart" aria-hidden="true"></i> by
+          <a href="" target="_blank"></a>
+        </p>
+      </div> -->
+    </nav>
+
+      <div id="content" class="p-4 p-md-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
+                  <h2
+                    style="
+                      color: #010d3f;
+                      margin-top: 23px;
+                      margin-bottom: 16px;
+                      margin-left: -20px;
+                      margin-right: 80px;
+                      font-weight: 700;
+                      font-size: 28px;
+                    "
+                  >
+                    Finances
+                  </h2>
+  
+                  <ul class="nav navbar-nav ml-auto">
+  
+  
+                  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Launch demo modal
+                  </button> -->
+                  <button type="button" class="finance-btn">+ADD JOB</button>
+                </ul>
+  
+            
+                </div>
+          </div>
+        </nav>
+
+      
+        <div class="bg-white pt-0">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- <div class="col-md-4 gutter-right_sect">  
+                <div class="my-0 mt-0 linklist_paid_unpaid" style="background-color: blue;" >
+                    <div class="linklist  active">
+                      <a href="#" class="text-black">
+                        <span class="txt-1">Active</span>
+                      </a>
+                    </div>
+                    <div class="linklist">
+                      <a href="#" class="text-black">
+                        <span class="txt-2">Post</span>
+                      </a>
+                    </div>
+                    <div class="linklist">
+                      <a href="#" class="text-black">
+                        <span class="txt-2">History</span>
+                      </a>
+                    </div>
+                  </div>
+          </div> -->
+
+          <div class="col-md-4 gutter-right_sect">  
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+  
+              <a class="nav-link linklist text-black active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <span class="txt-1">Active</span>
+                </a>
+             
+
+
+              <a class="nav-link linklist text-black" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <span class="txt-2">Post</span>
+                </a>
+              
+
+
+
+              <a class="nav-link linklist text-black" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                <span class="txt-2">History</span>
+                </a>
+           
+
+        </div>
+          </div>
+
+          <!-- <div class="my-0 mt-0 linklist_paid_unpaid">
+            <div class="linklist  active">
+              <a href="#" class="text-black">
+                <span class="txt-1">Active</span>
+              </a>
+            </div>
+            <div class="linklist">
+              <a href="#" class="text-black">
+                <span class="txt-2">Post</span>
+              </a>
+            </div>
+            <div class="linklist">
+              <a href="#" class="text-black">
+                <span class="txt-2">History</span>
+              </a>
+            </div>
+          </div> -->
+
+
+
+
+         
+          <div class="col-md-8 gutter-left_sect">
+            <div class="rightSect pt-5">
+                
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <section style="margin-top: 15px">
+                            <h2 style="margin-bottom: 20px">Active</h2>
+                          
+        
+                            <div class="row">
+                                <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                              <div class="member-column member-column-2 col-sm-6">
+                                <div class="unpaid-card-2">
+                                  <div class="member-row">
+                                    <h4>Talwar’s Residency</h4>
+                                  </div>
+                                  <div class="member-row contract-row">
+                                    <p class="txt">Express Security</p>
+                                  </div>
+                                  <div class="member-row contract-row">
+                                    <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                     </p>
+                                </div>
+                                  
+                                  <div class="member-row">
+                                    <div class="member-photo">
+                                        <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                        <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                        <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+          
+                                      <div class="member-photo">
+                                        <p>
+                                            Harry Sahir + 3 members are working
+                                        </p>
+                                       
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+        
+                          </section>
+
+                          <section style="margin-top: 0px">
+                            <div class="row">
+                                <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+        
+                          </section>
+                        </div>
+                      <div class="tab-pane" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <section style="margin-top: 15px">
+                            <h2 style="margin-bottom: 20px">Post</h2>
+                          
+        
+                            <div class="row">
+                                <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         <p class="member-clock-p"> <span class="member-clock"><i class="fas fa-clock"></i></span>7 DAYS LEFT
+                                         </p>
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                              <div class="member-column member-column-2 col-sm-6">
+                                <div class="unpaid-card-2">
+                                  <div class="member-row">
+                                    <h4>Talwar’s Residency</h4>
+                                  </div>
+                                  <div class="member-row contract-row">
+                                    <p class="txt">Express Security</p>
+                                  </div>
+                                  <div id="member-row" class="member-row contract-row">
+                                    <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                     </p>
+        
+                                     <p class="member-clock-p"> <span class="member-clock"><i class="fas fa-clock"></i></span>7 DAYS LEFT
+                                     </p>
+                                </div>
+                                  
+                                  <div class="member-row">
+                                    <div class="member-photo">
+                                        <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                        <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                        <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+          
+                                      <div class="member-photo">
+                                        <p>
+                                            Harry Sahir + 3 members are working
+                                        </p>
+                                       
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+        
+                          </section>
+
+                          <section style="margin-top: 0px">
+                            <div class="row">
+                                <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         <p class="member-clock-p"> <span class="member-clock"><i class="fas fa-clock"></i></span>7 DAYS LEFT
+                                         </p>
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         <p class="member-clock-p"> <span class="member-clock"><i class="fas fa-clock"></i></span>7 DAYS LEFT
+                                         </p>
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+        
+                          </section>
+                        </div>
+                      <div class="tab-pane" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <section style="margin-top: 15px">
+                            <h2 style="margin-bottom: 20px">History</h2>
+                          
+        
+                            <div class="row">
+                                <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                        <div class="member-row contract-row">
+                                            <p class="txt-completed">COMPLETED</p>
+                                          </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <p class="txt-money">£440</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                        <div class="member-row contract-row">
+                                            <p class="txt-completed">COMPLETED</p>
+                                          </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <p class="txt-money">£440</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                            </div>
+        
+                          </section>
+
+                          <section style="margin-top: 0px">
+                            <div class="row">
+                                <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                        <div class="member-row contract-row">
+                                            <p class="txt-completed">COMPLETED</p>
+                                          </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <p class="txt-money">£440</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+        
+                                  <div class="member-column member-column-2 col-sm-6">
+                                    <div class="unpaid-card-2">
+                                        <div class="member-row contract-row">
+                                            <p class="txt-completed">COMPLETED</p>
+                                          </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <p class="txt-money">£440</p>
+                                      </div>
+                                      <div class="member-row contract-row">
+                                        <p class="txt">Express Security</p>
+                                      </div>
+                                      <div id="member-row" class="member-row contract-row">
+                                        <p class="member-location-p"> <span class="member-location"><i class="fas fa-map-marker-alt"></i></span>KITCHENER
+                                         </p>
+        
+                                         
+                                    </div>
+                                      
+                                      <div class="member-row">
+                                        <div class="member-photo">
+                                            <div class="member-photo-1" style="background-image: url('img_1.jpg')" ></div>
+                                            <div class="member-photo-2" style="background-image: url('paid-member.jpg')" ></div>
+                                            <div class="member-photo-3" style="background-image: url('img_1.jpg')" ></div>
+              
+                                          <div class="member-photo">
+                                            <p>
+                                                Harry Sahir + 3 members are working
+                                            </p>
+                                           
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                            </div>
+        
+                          </section>
+                        </div>
+                      
+                    </div>
+
+        </div>
+
+        </div>
+
+        </div>
+            
+
+            
+ </div>
+          </div>
+        
+        
+        </div>
+
+      </div>
+
+
+    
+
+    <!--footer starts from here-->
+    <footer class="footer">
+      <div class="container bottom_border">
+        <div class="row">
+          <div class="col-sm-3">
+            <!-- <div class="col-sm-4 col-md col-sm-4 col-12 col"> -->
+            <h5 class="headin5_amrc col_white_amrc pt2">Find us here</h5>
+            <!--headin5_amrc-->
+
+            <ul class="social_footer_ul_1">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+
+            <ul class="social_footer_ul_1">
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+            <!--social_footer_ul ends here-->
+          </div>
+
+          <div class="col-sm-3">
+            <!-- <div class="col-sm-4 col-md col-6 col"> -->
+            <h5 class="headin5_amrc col_white_amrc pt2">Useful links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+              <li><a href="#">How to Hire (For Client)</a></li>
+              <li><a href="#">How to Find Work (for Member)</a></li>
+              <li><a href="#">Terms & Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+          </div>
+
+          <div class="col-sm-3">
+            <!-- <div class="col-sm-4 col-md col-6 col"> -->
+            <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+              <li><a href="#">About</a></li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li><a href="#">Trust & Safety</a></li>
+              <li><a href="#">UK Modern Slavery Act</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+          </div>
+
+          <div class="col-sm-3">
+            <!-- <div class="col-sm-4 col-md col-12 col"> -->
+            <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+            <!--headin5_amrc ends here-->
+
+            <ul class="footer_ul_amrc">
+              <li><a href="#">Trust & Safety</a></li>
+
+              <li><a href="#">Trust & Safety</a></li>
+              <li><a href="#">Trust & Safety</a></li>
+            </ul>
+            <!--footer_ul2_amrc ends here-->
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!--foote_bottom_ul_amrc ends here-->
+
+        <ul class="social_footer_ul">
+          <li>© 2021ArcOpenSpace</li>
+          <li>
+            <a href="wottaspace.com"> Powered | wottaspace.com </a>
+          </li>
+          <li>
+            <a href="wottaspace.com"><img src="Arc-Open-Space-App-logo.png" alt="" width="170"></a>
+
+          </li>
+        </ul>
+        <!--social_footer_ul ends here-->
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
