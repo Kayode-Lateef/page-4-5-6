@@ -31,31 +31,20 @@
   margin-left: -65px;
 }
 
-#v-pills-tab .linklist span.txt {
-color: #061541;
-  font-size: 18px;
-  opacity: 0.5;
-}
-
-#v-pills-tab .linklist span.txt:hover {
+#v-pills-tab .linklist span.txt-2, #v-pills-tab .linklist span.txt-3 {
     color: #061541;
-  font-weight: 700;
-  font-size: 28px;
-  opacity: 1;
-
+      font-size: 18px;
+      opacity: 0.5;
     }
 
-/* #v-pills-tab .linklist span.txt-1 {
+
+#v-pills-tab .linklist span.txt-1 {
   color: #061541;
   font-weight: 700;
   font-size: 28px;
-} */
+}
 
-/* #v-pills-tab .linklist span.txt-2 {
-  color: #061541;
-  font-size: 18px;
-  opacity: 0.5;
-} */
+
 
 /* Tab styles Ends */
 
