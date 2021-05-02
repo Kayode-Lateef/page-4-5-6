@@ -25,7 +25,7 @@
 });
 
 $(".txt-2").on("click", function () {
-$(".txt-2").css({color: "#061541", fontSize: "88px",  fontWeight: 700, opacity: "1.0" });
+$(".txt-2").css({color: "#061541", fontSize: "18px",  fontWeight: 700, opacity: "1.0" });
 $(".txt-1").css({color: "#061541", fontSize: "18px", fontWeight: 400, opacity: "0.5" });
 $(".txt-3").css({color: "#061541", fontSize: "18px", fontWeight: 400, opacity: "0.5" });
 
