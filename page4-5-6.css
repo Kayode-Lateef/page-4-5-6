@@ -70,48 +70,7 @@
   padding-left: 0;
 }
 
-.unpaid-profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: black;
-  background-color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  border-radius: 10px !important;
-  /* height: 133px;
-    width: 350px; */
-  margin: 0 12px;
-}
 
-.paid-items {
-  color: #12142d;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-}
-
-.unpaid-profile #paid-1 {
-  color: #46be00;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 28px;
-}
-
-.unpaid-profile #paid-2 {
-  color: #4169e2;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 28px;
-}
-
-.unpaid-profile .paid-date {
-  color: #1a1e2b;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  opacity: 0.5;
-}
 
 .member-column {
   float: left;
@@ -125,11 +84,15 @@
   padding: 5px 5px;
 }
 
+
+
 .unpaid-card-2 {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   padding: 10px;
   border-radius: 8px;
+  margin: 0 -10px;
+
 }
 
 .member-row {
